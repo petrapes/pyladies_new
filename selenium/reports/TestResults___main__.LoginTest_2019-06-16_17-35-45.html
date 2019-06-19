@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unittest Results</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Unittest Results</h2>
+                <p class='attribute'><strong>Start Time: </strong>2019-06-16 17:35:45</p>
+                <p class='attribute'><strong>Duration: </strong>46.36 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 1, Pass: 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.LoginTest</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_4get_user_followers</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>37
+37
+49
+61
+https://www.instagram.com/tetapepa2019/
+https://www.instagram.com/klia89/
+https://www.instagram.com/m.aa.r.t.i.n.aa/
+https://www.instagram.com/proste_stylove/
+https://www.instagram.com/dominika.kilianova/
+https://www.instagram.com/kytkala/
+https://www.instagram.com/waimea_clothing/
+https://www.instagram.com/katty.lib/
+https://www.instagram.com/klarik1616/
+https://www.instagram.com/adus.klarus/
+https://www.instagram.com/petrasperlikova/
+https://www.instagram.com/slavikla/
+https://www.instagram.com/petra_saskova/
+https://www.instagram.com/majkelito1992/
+https://www.instagram.com/brabby/
+https://www.instagram.com/koketak/
+https://www.instagram.com/__sjuzina__/
+https://www.instagram.com/dancazechmeisterova/
+https://www.instagram.com/liiibor.reznicek/
+https://www.instagram.com/lenkafx/
+https://www.instagram.com/terezamolnarova/
+https://www.instagram.com/silvinusenka11/
+https://www.instagram.com/mo.ni_88/
+https://www.instagram.com/stastnaverca/
+https://www.instagram.com/martasemecka/
+https://www.instagram.com/katyhurty/
+https://www.instagram.com/louzicka/
+https://www.instagram.com/lucielehotska/
+https://www.instagram.com/richart_world_photohraphy/
+https://www.instagram.com/slecna.barbora/
+https://www.instagram.com/lesni.dite/
+https://www.instagram.com/kabelkyatasky.cz/
+https://www.instagram.com/jiri.frkacule/
+https://www.instagram.com/hana_kundelova/
+https://www.instagram.com/mirka_horka/
+https://www.instagram.com/jpilarka/
+https://www.instagram.com/klara.osickova/
+https://www.instagram.com/zuza_on_board/
+https://www.instagram.com/jirka.vrabel/
+https://www.instagram.com/alenapitnerova/
+https://www.instagram.com/mabr9333/
+https://www.instagram.com/blanka.malatinska/
+https://www.instagram.com/kolac184/
+https://www.instagram.com/dancedaria.yoga/
+https://www.instagram.com/jenn_thurnwaldova/
+https://www.instagram.com/slajsik/
+https://www.instagram.com/tyna.krulisova/
+https://www.instagram.com/verulunka/
+https://www.instagram.com/czgrl/
+https://www.instagram.com/st.evelin/
+Test completed
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 1, Pass: 1 -- Duration: 46.36 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html
